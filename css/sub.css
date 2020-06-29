@@ -1,0 +1,565 @@
+.align { align-items: center; }
+.gen {  padding-bottom: 3px; }
+.check { margin: 10px 0px; }
+.sub2 .black { background: #040000; }
+input[name="sel"] { display: none; }
+* { color:#137C56; }
+/* trible */
+section.tribe { width: 100%; height: 71.48mm; }
+section.tribe p { color:#137C56; font-weight: bold; font-size: 6.45pt}
+section.tribe img { width: 58.019mm; height: 41.052mm; }
+
+section .title { width: 100%; height: 17.79mm; background: rgba(19, 124, 86, .3);; text-align: center; line-height: 17.79mm;  }
+section .title p { font-size: 11.71pt; color:#137C56; font-weight: bold; }
+section.select p { font-size: 13.37pt }
+
+section.tribe .cover { display: grid; grid-template-columns:50mm 71.14mm; justify-content: space-between; padding:25px 0px 25px 20px; }
+section.tribe .cover label { color:#137C56; }
+section.tribe .cover label.gender { margin:0px 5px; }
+section.tribe .cover > p:nth-child(1) { color:#137C56; margin-bottom: 5px; }
+section.tribe .cover .box input { padding-left: 10px; width: 63.066mm; height: 7.237mm; margin:5px 0px; border:1px solid #137C56; outline-color:#137C56  }
+section.tribe .cover .box input::placeholder { color:#137C56; font-weight: bold; font-size: 7.14pt; }
+section.tribe .cover .flex { align-items: center; }
+section.tribe .cover .flex p{ margin-right: 5px; display: flex; align-items: center; }
+section.tribe .cover .flex span { display: inline-block; }
+
+input[type="checkbox"] {  -webkit-appearance: none;  border:1px solid #137C56; width: 13px; outline: none; height: 13px; margin-right: 5px; }
+input[type="checkbox"]:checked { background: #137C56; outline: none; }
+input[type="checkbox"]:active { outline: none; }
+input[type="radio"] { border:1px solid #137C56; width: 13px; height: 13px; outline: none;  -webkit-appearance: none; border-radius: 50%; background: none;  }
+input[type="radio"]:checked { background: #137C56; outline: none;  }
+input[type="radio"]:active { outline: none;  }
+input[name="mapChk"] { display: none; }
+/* 14.1 */
+section.select { width: 100%; height: 721px; overflow: hidden; }
+section.select .map { width: 100%; height: 313px; padding: 40px 10px 0px 10px; }
+section.select label.mapChk { display: inline-block; cursor: pointer; position: absolute; width: 24px; height: 37px; background-image: url(../imgs/mapRadioBefore.png); background-size: 100% 100%; }
+section.select label[for="mapChk1"] { left: 48px; top: 84px; }
+section.select label[for="mapChk2"] { left: 117px; top: 84px; }
+section.select label[for="mapChk3"] { left: 221px; top: 65px; }
+section.select label[for="mapChk4"] { left: 249px; top: 82px; }
+section.select label[for="mapChk5"] { left: 409px; top: 82px; }
+section.select label[for="mapChk6"] { left: 451px; top: 91px; }
+section.select .map > img { width: 100%; }
+section.select .favorite { width: 473px; height: 226px; margin: 0 auto; border:1.5pt solid #137C56; display: grid; grid-template-columns: 40% 1fr; }
+section.select .favorite .p-box { border-right: 1.5px solid #137C56; padding: 20px 20px 0px 20px; }
+section.select .favorite .p-box h2 { font-size: 12.22pt; letter-spacing: -0.5px; text-align: center; margin-bottom: 15px; }
+section.select .favorite .p-box p { display: flex; align-items: center; padding:5px 0px; }
+section.select .favorite .p-box label { font-size: 6.08pt; font-weight: bold; padding-left: 5px; }
+section.select .favorite .img-box { height: 100%; z-index: 4; text-align: center; padding-top: 35px; }
+section.select .favorite .img-box .front{ width: 88%; }
+section.select .favorite .img-box .back { height: 116%; position: absolute; top: -20px; left: 28%; z-index: -1; }
+section.select .bot { width: 473px; margin: 0 auto; display: flex; margin-top: 20px; padding-top: 15px; align-items: center; }
+section.select .bot p{ display: inline-block; width: 50%; font-size: 7.1pt }
+
+section.last { width: 100%; height: auto; }
+section.last .box { width: 100%; height: 198px; padding:20px 27px; }
+section.last .box p { font-weight: bold; }
+section.last .box p:nth-child(1){ font-size: 8.2pt;  padding-bottom: 10px; }
+section.last .box p:nth-child(2){ font-size: 13.37pt;  }
+section.last .box:nth-child(odd) { background: rgba(19, 124, 86, .3); }
+section.last .box .rating { width: 100%; height: 50px; display: flex; text-align: center; justify-content: space-between; padding: 0px 7%; margin-top: 25px; }
+section.last .box .rating input { display: none; }
+section.last .box .rating .rect { width: 75%; height: 9px; background: #040000; left: 69px; z-index: 0;  top: 119px; position: absolute; }
+/*section.last .box .rating .rect2 { width: 25%;  background: #137C56; }*/
+
+section.last .box .rating .arc { z-index: 4; }
+section.last .box .rating .arc label{ display: inline-block; cursor: pointer; width: 22.7px; margin-bottom: 5px; height: 22.7px; border-radius: 50%; background: #040000; }
+section.last .box .rating .arc p { font-size: 14px; }
+section.last .box-ano { width: 100%; height: 215px; text-align: center; padding-top: 25px; }
+section.last .box-ano p { font-weight: bold;  }
+section.last .box-ano > p:nth-child(2) { font-size: 7.37pt }
+section.last .box-ano > p:nth-child(3) { font-size: 13.18pt; margin-bottom: 25px; }
+section.last .box-ano .back{ position: absolute; left: 0; top: 0; }
+section.last .box-ano .contents { width: 80%; margin: 0 auto; justify-content: space-around; }
+section.last .box-ano .contents .content { width: 104px; height: 85px; background: gray; cursor: pointer;  border-radius: 7px; display: flex; align-items: center; justify-content: center; line-height: 16px;}
+section.last .box-ano .contents .content:nth-child(2) { margin-top: 30px; }
+section.last .box-ano .contents .content p { color:#040000; }
+section.last .btns { display: inline-block; width: 60%; height: 30px; margin: 30px 0px; background: rgba(19, 124, 86, .3); border-radius: 7px; padding-top: 5px; font-weight: bold; text-align: center; position: relative; left: 50%; transform: translateX(-50%); }
+section.last .btns:hover {  background: rgba(19, 124, 86, .4); }
+
+#sel1:checked ~ .contents label[for="sel1"] { background: #137C56; }
+#sel2:checked ~ .contents label[for="sel2"] { background: #137C56; }
+#sel3:checked ~ .contents label[for="sel3"] { background: #137C56; }
+
+#mapChk1:checked ~ .map > label[for="mapChk1"] { width: 36px; height: 56px; left: 42px; top: 64px; background-image: url(../imgs/mapRadioAfter.png); }
+#mapChk2:checked ~ .map > label[for="mapChk2"] { width: 36px; height: 56px; left: 111px; top: 64px; background-image: url(../imgs/mapRadioAfter.png); }
+#mapChk3:checked ~ .map > label[for="mapChk3"] { width: 36px; height: 56px; left: 215px; top: 45px; background-image: url(../imgs/mapRadioAfter.png); }
+#mapChk4:checked ~ .map > label[for="mapChk4"] { width: 36px; height: 56px; left: 243px; top: 62px; background-image: url(../imgs/mapRadioAfter.png); }
+#mapChk5:checked ~ .map > label[for="mapChk5"] { width: 36px; height: 56px; left: 403px; top: 62px; background-image: url(../imgs/mapRadioAfter.png); }
+#mapChk6:checked ~ .map > label[for="mapChk6"] { width: 36px; height: 56px; left: 445px; top: 71px; background-image: url(../imgs/mapRadioAfter.png); }
+
+.sub2 #mapChk1:checked ~ .map > label[for="mapChk1"] {background-image: url(../imgs/mapRadioAfter2.png); }
+.sub2 #mapChk2:checked ~ .map > label[for="mapChk2"] {background-image: url(../imgs/mapRadioAfter2.png); } 
+.sub2 #mapChk3:checked ~ .map > label[for="mapChk3"] {background-image: url(../imgs/mapRadioAfter2.png); } 
+.sub2 #mapChk4:checked ~ .map > label[for="mapChk4"] {background-image: url(../imgs/mapRadioAfter2.png); } 
+.sub2 #mapChk5:checked ~ .map > label[for="mapChk5"] {background-image: url(../imgs/mapRadioAfter2.png); } 
+.sub2 #mapChk6:checked ~ .map > label[for="mapChk6"] {background-image: url(../imgs/mapRadioAfter2.png); } 
+
+.sub3 #mapChk1:checked ~ .map > label[for="mapChk1"] {background-image: url(../imgs/mapRadioAfter3.png); }
+.sub3 #mapChk2:checked ~ .map > label[for="mapChk2"] {background-image: url(../imgs/mapRadioAfter3.png); } 
+.sub3 #mapChk3:checked ~ .map > label[for="mapChk3"] {background-image: url(../imgs/mapRadioAfter3.png); } 
+.sub3 #mapChk4:checked ~ .map > label[for="mapChk4"] {background-image: url(../imgs/mapRadioAfter3.png); } 
+.sub3 #mapChk5:checked ~ .map > label[for="mapChk5"] {background-image: url(../imgs/mapRadioAfter3.png); } 
+.sub3 #mapChk6:checked ~ .map > label[for="mapChk6"] {background-image: url(../imgs/mapRadioAfter3.png); } 
+
+.sub4 #mapChk1:checked ~ .map > label[for="mapChk1"] {background-image: url(../imgs/mapRadioAfter4.png); }
+.sub4 #mapChk2:checked ~ .map > label[for="mapChk2"] {background-image: url(../imgs/mapRadioAfter4.png); } 
+.sub4 #mapChk3:checked ~ .map > label[for="mapChk3"] {background-image: url(../imgs/mapRadioAfter4.png); } 
+.sub4 #mapChk4:checked ~ .map > label[for="mapChk4"] {background-image: url(../imgs/mapRadioAfter4.png); } 
+.sub4 #mapChk5:checked ~ .map > label[for="mapChk5"] {background-image: url(../imgs/mapRadioAfter4.png); } 
+.sub4 #mapChk6:checked ~ .map > label[for="mapChk6"] {background-image: url(../imgs/mapRadioAfter4.png); } 
+
+
+.sub2 { border-left: 4px solid #BD461F; border-top: 2px solid #BD461F; border-right: 5.4px solid #BD461F; border-bottom: 3px solid #BD461F;  }
+.sub2 section.last .btns { background: rgba(189,70,31, .3); color:#BD461F; }
+.sub2 section.last .btns:hover { background: rgba(189,70,31, .4); }
+.sub2 .title { background: rgba(189,70,31, .3); }
+.sub2 .title p { color:#BD461F; }
+.sub2 p, .sub2 label, .sub2 h2, .sub2 h1{ color:#BD461F; }
+.sub2 section.select .favorite { border:1.5pt solid #BD461F; }
+.sub2 section.select .favorite .p-box { border-right:1.5pt solid #BD461F; }
+.sub2 section.select .favorite .p-box input { border:1px solid #BD461F; }
+.sub2 section.last .box:nth-child(odd) { background:  rgba(189,70,31, .3); }
+.sub2 section.last .box .rating .rect2 { background: #BD461F; }
+.sub2 section.last .box .rating .arc div{ background: #BD461F; }
+.sub2 section.last .box:nth-child(2) .arc div { background: #BD461F; }
+.sub2 section.last .box:nth-child(4) .arc div { background: #BD461F; }
+.sub2 section.last .box-ano .contents .content { background: gray; }
+.sub2 section.tribe p { color:#BD461F;}
+.sub2 section.tribe .cover label { color:#BD461F; }
+.sub2 section.tribe .cover > p:nth-child(1) { color:#BD461F; }
+.sub2 section.tribe .cover .box input { border:1px solid #BD461F; outline-color:#BD461F;  }
+.sub2 section.tribe .cover .box input::placeholder { color:#BD461F; }
+.sub2 input[type="checkbox"] {  border:1px solid #BD461F; }
+.sub2 input[type="checkbox"]:checked { background: #BD461F;}
+.sub2 input[type="radio"] { border:1px solid #BD461F;}
+.sub2 input[type="radio"]:checked { background: #BD461F;  }
+
+.sub2 #sel1:checked ~ .contents label[for="sel1"] { background: #BD461F; }
+.sub2 #sel2:checked ~ .contents label[for="sel2"] { background: #BD461F; }
+.sub2 #sel3:checked ~ .contents label[for="sel3"] { background: #BD461F; }
+
+.sub3 { border-left: 4px solid #F0E62A; border-top: 2px solid #F0E62A; border-right: 5.4px solid #F0E62A; border-bottom: 3px solid #F0E62A;  }
+.sub3 section.last .btns { background: rgba(240,230,42, .3); color:#F0E62A; }
+.sub3 section.last .btns:hover { background: rgba(240,230,42, .4); }
+.sub3 .title { background: rgba(240,230,42, .3); }
+.sub3 .title p { color:#F0E62A; }
+.sub3 p, .sub3 label, .sub3 h2, .sub3 h1{ color:#F0E62A; }
+.sub3 section.select .favorite { border:1.5pt solid #F0E62A; }
+.sub3 section.select .favorite .p-box { border-right:1.5pt solid #F0E62A; }
+.sub3 section.select .favorite .p-box input { border:1px solid #F0E62A; }
+.sub3 section.last .box:nth-child(odd) { background:  rgba(240,230,42, .3); }
+.sub3 section.last .box .rating .rect2 { background: #F0E62A; }
+.sub3 section.last .box .rating .arc div{ background: #F0E62A; }
+.sub3 section.last .box:nth-child(2) .arc div { background: #F0E62A; }
+.sub3 section.last .box:nth-child(4) .arc div { background: #F0E62A; }
+.sub3 section.last .box-ano .contents .content { background: gray; }
+.sub3 section.tribe p { color:#F0E62A;}
+.sub3 section.tribe .cover label { color:#F0E62A; }
+.sub3 section.tribe .cover > p:nth-child(1) { color:#F0E62A; }
+.sub3 section.tribe .cover .box input { border:1px solid #F0E62A; outline-color:#F0E62A;  }
+.sub3 section.tribe .cover .box input::placeholder { color:#F0E62A; }
+.sub3 input[type="checkbox"] {  border:1px solid #F0E62A; }
+.sub3 input[type="checkbox"]:checked { background: #F0E62A;}
+.sub3 input[type="radio"] { border:1px solid #F0E62A;}
+.sub3 input[type="radio"]:checked { background: #F0E62A;  }
+
+.sub3 #sel1:checked ~ .contents label[for="sel1"] { background: #F0E62A; }
+.sub3 #sel2:checked ~ .contents label[for="sel2"] { background: #F0E62A; }
+.sub3 #sel3:checked ~ .contents label[for="sel3"] { background: #F0E62A; }
+
+.sub4 { border-left: 4px solid #2096D5; border-top: 2px solid #2096D5; border-right: 5.4px solid #2096D5; border-bottom: 3px solid #2096D5;  }
+.sub4 section.last .btns { background: rgba(32,150,213, .3); color:#2096D5; }
+.sub4 section.last .btns:hover { background: rgba(32,150,213, .4); }
+.sub4 .title { background: rgba(32,150,213, .3); }
+.sub4 .title p { color:#2096D5; }
+.sub4 p, .sub4 label, .sub4 h2, .sub4 h1{ color:#2096D5; }
+.sub4 section.select .favorite { border:1.5pt solid #2096D5; }
+.sub4 section.select .favorite .p-box { border-right:1.5pt solid #2096D5; }
+.sub4 section.select .favorite .p-box input { border:1px solid #2096D5; }
+.sub4 section.last .box:nth-child(odd) { background:  rgba(32,150,213, .3); }
+.sub4 section.last .box-ano .contents .content { background: gray; }
+.sub4 section.last .box .rating .rect2 { background: #2096D5; }
+.sub4 section.last .box .rating .arc div{ background: #2096D5; }
+.sub4 section.last .box:nth-child(2) .arc div { background: #2096D5; }
+.sub4 section.last .box:nth-child(4) .arc div { background: #2096D5; }
+.sub4 section.tribe p { color:#2096D5;}
+.sub4 section.tribe .cover label { color:#2096D5; }
+.sub4 section.tribe .cover > p:nth-child(1) { color:#2096D5; }
+.sub4 section.tribe .cover .box input { border:1px solid #2096D5; outline-color:#2096D5;  }
+.sub4 section.tribe .cover .box input::placeholder { color:#2096D5; }
+.sub4 input[type="checkbox"] {  border:1px solid #2096D5; }
+.sub4 input[type="checkbox"]:checked { background: #2096D5;}
+.sub4 input[type="radio"] { border:1px solid #2096D5;}
+.sub4 input[type="radio"]:checked { background: #2096D5;  }
+
+.sub4 #sel1:checked ~ .contents label[for="sel1"] { background: #2096D5; }
+.sub4 #sel2:checked ~ .contents label[for="sel2"] { background: #2096D5; }
+.sub4 #sel3:checked ~ .contents label[for="sel3"] { background: #2096D5; }
+
+
+#chk1:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk1:checked ~ .rect2 { width: 0; background: #137C56; }
+
+#chk1-1:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk1-1:checked ~ .rect2 { width: 0; background: #137C56; }
+
+#chk1-2:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk1-2:checked ~ .rect2 { width: 0; background: #137C56; }
+
+#chk1-3:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk1-3:checked ~ .rect2 { width: 0; background: #137C56; }
+
+#chk1-4:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk1-4:checked ~ .rect2 { width: 0; background: #137C56; }
+
+#chk2:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk2:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk2:checked ~ .rect2 { width: 25%; background: #137C56; }
+
+#chk2-1:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk2-1:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk2-1:checked ~ .rect2 { width: 25%; background: #137C56; }
+
+#chk2-2:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk2-2:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk2-2:checked ~ .rect2 { width: 25%; background: #137C56; }
+
+#chk2-3:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk2-3:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk2-3:checked ~ .rect2 { width: 25%; background: #137C56; }
+
+#chk2-4:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk2-4:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk2-4:checked ~ .rect2 { width: 25%; background: #137C56; }
+
+#chk3:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk3:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk3:checked ~ .arc:nth-child(9) label { background: #137C56; }
+#chk3:checked ~ .rect2 { width: 50%; background: #137C56; }
+
+#chk3-1:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk3-1:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk3-1:checked ~ .arc:nth-child(9) label { background: #137C56; }
+#chk3-1:checked ~ .rect2 { width: 50%; background: #137C56; }
+
+#chk3-2:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk3-2:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk3-2:checked ~ .arc:nth-child(9) label { background: #137C56; }
+#chk3-2:checked ~ .rect2 { width: 50%; background: #137C56; }
+
+#chk3-3:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk3-3:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk3-3:checked ~ .arc:nth-child(9) label { background: #137C56; }
+#chk3-3:checked ~ .rect2 { width: 50%; background: #137C56; }
+
+#chk3-4:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk3-4:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk3-4:checked ~ .arc:nth-child(9) label { background: #137C56; }
+#chk3-4:checked ~ .rect2 { width: 50%; background: #137C56; }
+
+#chk4:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk4:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk4:checked ~ .arc:nth-child(9) label { background: #137C56; }
+#chk4:checked ~ .arc:nth-child(10) label { background: #137C56; }
+#chk4:checked ~ .rect2 { width: 75%; background: #137C56; }
+
+#chk4-1:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk4-1:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk4-1:checked ~ .arc:nth-child(9) label { background: #137C56; }
+#chk4-1:checked ~ .arc:nth-child(10) label { background: #137C56; }
+#chk4-1:checked ~ .rect2 { width: 75%; background: #137C56; }
+
+#chk4-2:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk4-2:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk4-2:checked ~ .arc:nth-child(9) label { background: #137C56; }
+#chk4-2:checked ~ .arc:nth-child(10) label { background: #137C56; }
+#chk4-2:checked ~ .rect2 { width: 75%; background: #137C56; }
+
+#chk4-3:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk4-3:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk4-3:checked ~ .arc:nth-child(9) label { background: #137C56; }
+#chk4-3:checked ~ .arc:nth-child(10) label { background: #137C56; }
+#chk4-3:checked ~ .rect2 { width: 75%; background: #137C56; }
+
+#chk4-4:checked ~ .arc:nth-child(7) label { background: #137C56; }
+#chk4-4:checked ~ .arc:nth-child(8) label { background: #137C56; }
+#chk4-4:checked ~ .arc:nth-child(9) label { background: #137C56; }
+#chk4-4:checked ~ .arc:nth-child(10) label { background: #137C56; }
+#chk4-4:checked ~ .rect2 { width: 75%; background: #137C56; }
+
+
+
+.sub2 #chk1:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk1:checked ~ .rect2 { width: 0; background: #BD461F; }
+
+.sub2 #chk1-1:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk1-1:checked ~ .rect2 { width: 0; background: #BD461F; }
+
+.sub2 #chk1-2:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk1-2:checked ~ .rect2 { width: 0; background: #BD461F; }
+
+.sub2 #chk1-3:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk1-3:checked ~ .rect2 { width: 0; background: #BD461F; }
+
+.sub2 #chk1-4:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk1-4:checked ~ .rect2 { width: 0; background: #BD461F; }
+
+.sub2 #chk2:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk2:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk2:checked ~ .rect2 { width: 25%; background: #BD461F; }
+
+.sub2 #chk2-1:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk2-1:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk2-1:checked ~ .rect2 { width: 25%; background: #BD461F; }
+
+.sub2 #chk2-2:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk2-2:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk2-2:checked ~ .rect2 { width: 25%; background: #BD461F; }
+
+.sub2 #chk2-3:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk2-3:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk2-3:checked ~ .rect2 { width: 25%; background: #BD461F; }
+
+.sub2 #chk2-4:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk2-4:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk2-4:checked ~ .rect2 { width: 25%; background: #BD461F; }
+
+.sub2 #chk3:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk3:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk3:checked ~ .arc:nth-child(9) label { background: #BD461F; }
+.sub2 #chk3:checked ~ .rect2 { width: 50%; background: #BD461F; }
+
+.sub2 #chk3-1:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk3-1:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk3-1:checked ~ .arc:nth-child(9) label { background: #BD461F; }
+.sub2 #chk3-1:checked ~ .rect2 { width: 50%; background: #BD461F; }
+
+.sub2 #chk3-2:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk3-2:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk3-2:checked ~ .arc:nth-child(9) label { background: #BD461F; }
+.sub2 #chk3-2:checked ~ .rect2 { width: 50%; background: #BD461F; }
+
+.sub2 #chk3-3:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk3-3:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk3-3:checked ~ .arc:nth-child(9) label { background: #BD461F; }
+.sub2 #chk3-3:checked ~ .rect2 { width: 50%; background: #BD461F; }
+
+.sub2 #chk3-4:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk3-4:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk3-4:checked ~ .arc:nth-child(9) label { background: #BD461F; }
+.sub2 #chk3-4:checked ~ .rect2 { width: 50%; background: #BD461F; }
+
+.sub2 #chk4:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk4:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk4:checked ~ .arc:nth-child(9) label { background: #BD461F; }
+.sub2 #chk4:checked ~ .arc:nth-child(10) label { background: #BD461F; }
+.sub2 #chk4:checked ~ .rect2 { width: 75%; background: #BD461F; }
+
+.sub2 #chk4-1:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk4-1:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk4-1:checked ~ .arc:nth-child(9) label { background: #BD461F; }
+.sub2 #chk4-1:checked ~ .arc:nth-child(10) label { background: #BD461F; }
+.sub2 #chk4-1:checked ~ .rect2 { width: 75%; background: #BD461F; }
+
+.sub2 #chk4-2:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk4-2:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk4-2:checked ~ .arc:nth-child(9) label { background: #BD461F; }
+.sub2 #chk4-2:checked ~ .arc:nth-child(10) label { background: #BD461F; }
+.sub2 #chk4-2:checked ~ .rect2 { width: 75%; background: #BD461F; }
+
+.sub2 #chk4-3:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk4-3:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk4-3:checked ~ .arc:nth-child(9) label { background: #BD461F; }
+.sub2 #chk4-3:checked ~ .arc:nth-child(10) label { background: #BD461F; }
+.sub2 #chk4-3:checked ~ .rect2 { width: 75%; background: #BD461F; }
+
+.sub2 #chk4-4:checked ~ .arc:nth-child(7) label { background: #BD461F; }
+.sub2 #chk4-4:checked ~ .arc:nth-child(8) label { background: #BD461F; }
+.sub2 #chk4-4:checked ~ .arc:nth-child(9) label { background: #BD461F; }
+.sub2 #chk4-4:checked ~ .arc:nth-child(10) label { background: #BD461F; }
+.sub2 #chk4-4:checked ~ .rect2 { width: 75%; background: #BD461F; }
+
+.sub3 #chk1:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk1:checked ~ .rect2 { width: 0; background: #F0E62A; }
+
+.sub3 #chk1-1:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk1-1:checked ~ .rect2 { width: 0; background: #F0E62A; }
+
+.sub3 #chk1-2:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk1-2:checked ~ .rect2 { width: 0; background: #F0E62A; }
+
+.sub3 #chk1-3:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk1-3:checked ~ .rect2 { width: 0; background: #F0E62A; }
+
+.sub3 #chk1-4:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk1-4:checked ~ .rect2 { width: 0; background: #F0E62A; }
+
+.sub3 #chk2:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk2:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk2:checked ~ .rect2 { width: 25%; background: #F0E62A; }
+
+.sub3 #chk2-1:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk2-1:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk2-1:checked ~ .rect2 { width: 25%; background: #F0E62A; }
+
+.sub3 #chk2-2:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk2-2:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk2-2:checked ~ .rect2 { width: 25%; background: #F0E62A; }
+
+.sub3 #chk2-3:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk2-3:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk2-3:checked ~ .rect2 { width: 25%; background: #F0E62A; }
+
+.sub3 #chk2-4:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk2-4:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk2-4:checked ~ .rect2 { width: 25%; background: #F0E62A; }
+
+.sub3 #chk3:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk3:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk3:checked ~ .arc:nth-child(9) label { background: #F0E62A; }
+.sub3 #chk3:checked ~ .rect2 { width: 50%; background: #F0E62A; }
+
+.sub3 #chk3-1:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk3-1:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk3-1:checked ~ .arc:nth-child(9) label { background: #F0E62A; }
+.sub3 #chk3-1:checked ~ .rect2 { width: 50%; background: #F0E62A; }
+
+.sub3 #chk3-2:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk3-2:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk3-2:checked ~ .arc:nth-child(9) label { background: #F0E62A; }
+.sub3 #chk3-2:checked ~ .rect2 { width: 50%; background: #F0E62A; }
+
+.sub3 #chk3-3:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk3-3:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk3-3:checked ~ .arc:nth-child(9) label { background: #F0E62A; }
+.sub3 #chk3-3:checked ~ .rect2 { width: 50%; background: #F0E62A; }
+
+.sub3 #chk3-4:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk3-4:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk3-4:checked ~ .arc:nth-child(9) label { background: #F0E62A; }
+.sub3 #chk3-4:checked ~ .rect2 { width: 50%; background: #F0E62A; }
+
+.sub3 #chk4:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk4:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk4:checked ~ .arc:nth-child(9) label { background: #F0E62A; }
+.sub3 #chk4:checked ~ .arc:nth-child(10) label { background: #F0E62A; }
+.sub3 #chk4:checked ~ .rect2 { width: 75%; background: #F0E62A; }
+
+.sub3 #chk4-1:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk4-1:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk4-1:checked ~ .arc:nth-child(9) label { background: #F0E62A; }
+.sub3 #chk4-1:checked ~ .arc:nth-child(10) label { background: #F0E62A; }
+.sub3 #chk4-1:checked ~ .rect2 { width: 75%; background: #F0E62A; }
+
+.sub3 #chk4-2:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk4-2:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk4-2:checked ~ .arc:nth-child(9) label { background: #F0E62A; }
+.sub3 #chk4-2:checked ~ .arc:nth-child(10) label { background: #F0E62A; }
+.sub3 #chk4-2:checked ~ .rect2 { width: 75%; background: #F0E62A; }
+
+.sub3 #chk4-3:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk4-3:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk4-3:checked ~ .arc:nth-child(9) label { background: #F0E62A; }
+.sub3 #chk4-3:checked ~ .arc:nth-child(10) label { background: #F0E62A; }
+.sub3 #chk4-3:checked ~ .rect2 { width: 75%; background: #F0E62A; }
+
+.sub3 #chk4-4:checked ~ .arc:nth-child(7) label { background: #F0E62A; }
+.sub3 #chk4-4:checked ~ .arc:nth-child(8) label { background: #F0E62A; }
+.sub3 #chk4-4:checked ~ .arc:nth-child(9) label { background: #F0E62A; }
+.sub3 #chk4-4:checked ~ .arc:nth-child(10) label { background: #F0E62A; }
+.sub3 #chk4-4:checked ~ .rect2 { width: 75%; background: #F0E62A; }
+
+.sub4 #chk1:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk1:checked ~ .rect2 { width: 0; background: #2096D5; }
+
+.sub4 #chk1-1:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk1-1:checked ~ .rect2 { width: 0; background: #2096D5; }
+
+.sub4 #chk1-2:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk1-2:checked ~ .rect2 { width: 0; background: #2096D5; }
+
+.sub4 #chk1-3:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk1-3:checked ~ .rect2 { width: 0; background: #2096D5; }
+
+.sub4 #chk1-4:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk1-4:checked ~ .rect2 { width: 0; background: #2096D5; }
+
+.sub4 #chk2:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk2:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk2:checked ~ .rect2 { width: 25%; background: #2096D5; }
+
+.sub4 #chk2-1:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk2-1:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk2-1:checked ~ .rect2 { width: 25%; background: #2096D5; }
+
+.sub4 #chk2-2:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk2-2:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk2-2:checked ~ .rect2 { width: 25%; background: #2096D5; }
+
+.sub4 #chk2-3:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk2-3:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk2-3:checked ~ .rect2 { width: 25%; background: #2096D5; }
+
+.sub4 #chk2-4:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk2-4:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk2-4:checked ~ .rect2 { width: 25%; background: #2096D5; }
+
+.sub4 #chk3:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk3:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk3:checked ~ .arc:nth-child(9) label { background: #2096D5; }
+.sub4 #chk3:checked ~ .rect2 { width: 50%; background: #2096D5; }
+
+.sub4 #chk3-1:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk3-1:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk3-1:checked ~ .arc:nth-child(9) label { background: #2096D5; }
+.sub4 #chk3-1:checked ~ .rect2 { width: 50%; background: #2096D5; }
+
+.sub4 #chk3-2:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk3-2:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk3-2:checked ~ .arc:nth-child(9) label { background: #2096D5; }
+.sub4 #chk3-2:checked ~ .rect2 { width: 50%; background: #2096D5; }
+
+.sub4 #chk3-3:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk3-3:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk3-3:checked ~ .arc:nth-child(9) label { background: #2096D5; }
+.sub4 #chk3-3:checked ~ .rect2 { width: 50%; background: #2096D5; }
+
+.sub4 #chk3-4:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk3-4:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk3-4:checked ~ .arc:nth-child(9) label { background: #2096D5; }
+.sub4 #chk3-4:checked ~ .rect2 { width: 50%; background: #2096D5; }
+
+.sub4 #chk4:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk4:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk4:checked ~ .arc:nth-child(9) label { background: #2096D5; }
+.sub4 #chk4:checked ~ .arc:nth-child(10) label { background: #2096D5; }
+.sub4 #chk4:checked ~ .rect2 { width: 75%; background: #2096D5; }
+
+.sub4 #chk4-1:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk4-1:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk4-1:checked ~ .arc:nth-child(9) label { background: #2096D5; }
+.sub4 #chk4-1:checked ~ .arc:nth-child(10) label { background: #2096D5; }
+.sub4 #chk4-1:checked ~ .rect2 { width: 75%; background: #2096D5; }
+
+.sub4 #chk4-2:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk4-2:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk4-2:checked ~ .arc:nth-child(9) label { background: #2096D5; }
+.sub4 #chk4-2:checked ~ .arc:nth-child(10) label { background: #2096D5; }
+.sub4 #chk4-2:checked ~ .rect2 { width: 75%; background: #2096D5; }
+
+.sub4 #chk4-3:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk4-3:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk4-3:checked ~ .arc:nth-child(9) label { background: #2096D5; }
+.sub4 #chk4-3:checked ~ .arc:nth-child(10) label { background: #2096D5; }
+.sub4 #chk4-3:checked ~ .rect2 { width: 75%; background: #2096D5; }
+
+.sub4 #chk4-4:checked ~ .arc:nth-child(7) label { background: #2096D5; }
+.sub4 #chk4-4:checked ~ .arc:nth-child(8) label { background: #2096D5; }
+.sub4 #chk4-4:checked ~ .arc:nth-child(9) label { background: #2096D5; }
+.sub4 #chk4-4:checked ~ .arc:nth-child(10) label { background: #2096D5; }
+.sub4 #chk4-4:checked ~ .rect2 { width: 75%; background: #2096D5; }
+
+
+
