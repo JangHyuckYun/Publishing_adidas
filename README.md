@@ -1,1 +1,3 @@
-# portfolio1_front_design
+# Publishing_1
+
+2020년 고등학교다닐때 만든 퍼블리싱 페이지로 한 친구 선배 부탁으로 만들게 되었음.
